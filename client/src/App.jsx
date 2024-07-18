@@ -1,8 +1,12 @@
+import Home from "./components/home/Home";
+import RecentOffers from "./components/recent-offer/RecentOffers";
+
 function App() {
 
     return (
         <>
-        <h1>Car Place</h1>
+        <Home />
+        <RecentOffers />
         </>
     )
 }
